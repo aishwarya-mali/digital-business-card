@@ -1,0 +1,120 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  background-color: pink;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.App{
+  max-width: 300px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.header--img{
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0px 0px;
+}
+
+header > h2{
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+header > h4, header small{
+  padding-bottom: 5px;
+}
+
+header > h2, header > h4, header small, header > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header small{
+  color: #4A4E74;
+}
+
+header > h2{
+  color: #2B283A;
+}
+
+header > div{
+  padding-bottom: 10px;
+}
+
+.header--mail{
+  margin-right: 10px;
+}
+
+header i{
+  margin-right: 5px;
+}
+
+header > h4{
+  font-size: 14px;
+  font-weight: 400;
+  color: #F47D27;
+}
+
+header > small{
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.header--mail, .header--li{
+  color: #374151;
+  font-weight: 500;
+  font-size: 12px;
+  border: 1px solid #D1D5DB;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+  padding: 4px;
+}
+
+.header--li{
+  background-color: #297FE5;
+  color: #fff;
+}
+
+main{
+  background: #F5F5F5;
+  padding: 20px;
+}
+
+main > h3{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+main p{
+  font-size: 12px;
+  font-weight: 400;
+  padding: 5px 0;
+}
+
+footer{
+  background: #D5D4D8;
+  padding: 10px;
+  text-align: center;
+}
+
+footer i{
+  color: #918E9B;
+  margin-right: 10px;
+}
