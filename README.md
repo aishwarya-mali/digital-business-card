@@ -1,7 +1,7 @@
 
 # Digital Business Card
 
-This is a Digital Business Card made with React
+This is a Digital Business Card built with React
 
 ## Demo
 
