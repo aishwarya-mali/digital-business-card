@@ -114,6 +114,7 @@ footer{
   background: #D5D4D8;
   padding: 10px;
   text-align: center;
+  border-radius: 0 0 5px 5px;
 }
 
 footer svg{
