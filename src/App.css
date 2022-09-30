@@ -9,7 +9,9 @@ a{
 }
 
 body{
-  background-color: pink;
+  background: #ddd6f3; 
+  background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  
+  background: linear-gradient(to right, #faaca8, #ddd6f3); 
   padding: 40px;
   display: flex;
   justify-content: center;
@@ -61,7 +63,7 @@ header > div{
   margin-right: 10px;
 }
 
-header i{
+header svg{
   margin-right: 5px;
 }
 
@@ -114,7 +116,8 @@ footer{
   text-align: center;
 }
 
-footer i{
+footer svg{
   color: #918E9B;
   margin-right: 10px;
+  border-radius: 0 0 5px 5px;
 }

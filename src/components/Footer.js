@@ -1,8 +1,11 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCodepen, faGithub } from "@fortawesome/free-brands-svg-icons";
+
 export default function Footer(){
     return(
         <footer>
-            <a href='https://codepen.io/aishwarya_mali'><i class="fa-brands fa-codepen"></i></a>
-            <a href='https://github.com/aishwarya-mali'><i class="fa-brands fa-github"></i></a>
+            <a href='https://codepen.io/aishwarya_mali'><FontAwesomeIcon icon={faCodepen}/></a>
+            <a href='https://github.com/aishwarya-mali'><FontAwesomeIcon icon={faGithub}/></a>
         </footer>
     )
 }
