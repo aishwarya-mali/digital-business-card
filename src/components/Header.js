@@ -12,7 +12,7 @@ export default function Header(){
             <a href='https://aishwarya-mali.github.io/portfolio/'><small>aishwarya-mali.github.io/portfolio</small></a>
             <div className='header--btns'>
                 <a href="mailto:aishwaryamali29@gmail.com" title="aishwaryamali29@gmail.com"><div className='header--mail'> <FontAwesomeIcon icon={faEnvelope}/>Email</div></a>
-                <a href="https://www.linkedin.com/in/aishwarya-mali-80849a169" title='Aishwarya LinkedIn'><div className='header--li'><FontAwesomeIcon icon={faLinkedin}/>LinkedIn</div></a>
+                <a href="https://www.linkedin.com/in/aishwaryamali24" title='Aishwarya LinkedIn'><div className='header--li'><FontAwesomeIcon icon={faLinkedin}/>LinkedIn</div></a>
             </div>
         </header>
     )
