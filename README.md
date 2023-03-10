@@ -13,7 +13,7 @@ https://aishwaryas-digitalcard.netlify.app/
 Clone the project
 
 ```bash
-  git clone https://github.com/aishwarya-mali/DigitalBusinessCard.git
+  git clone https://github.com/aishwarya-mali/digital-business-card.git
 ```
 
 Go to the project directory
